@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gerenciador de atividades</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="form">
+            <div class="form-group">
+                <label for="text">Insira sua atividade</label>
+                <input type="text" name="text" id="tarefasfazer" placeholder="atividade para fazer">
+                <p id="error"></p>
+            </div>
+    
+            <div class="form-button">
+                <button onclick=adiciona()>
+                    Adicionar
+                </button>
+            </div>
+        </div>
+
+        <div class="tarefas">
+            <h1>Suas tarefas são:</h1>
+            <div>
+                <ul id="listaDeTarefas">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="./adiciona.js"></script>
+    </body>
+</html>

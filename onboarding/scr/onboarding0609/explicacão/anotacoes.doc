@@ -1,0 +1,48 @@
+-Estudar javascript, condições
+-ver sobre json
+-ver sobre orientação a objetos com javascript
+-Estudar DOM
+
+listas []
+objeto {}
+
+var corDoCarro = 'vermelha'
+var placaCarro = "xxx-000"
+
+for (var i = 0; listaTexto.Length, i++){
+    console.log(listaTexto[i])
+}
+
+
+getElementById
+ByTagName
+ByClassName
+
+
+pegar valor do campo email//validar o email
+//antes tem assim no html    <button onclick=adiciona()>
+function adiciona(){
+    var email = document.getElementById('email').value 
+    var regexTesteEmail = /\S+@\S+\.com\S+/
+    console.log(email)
+
+if(regexTesteEmail.teste(email)){
+    console.log(email)
+}else{
+    alert("email inválido")
+}
+}
+
+
+var existeEmail = false
+
+var listaDeEmailAdicionados = listaDeEmail.innerHTML.split()
+if(regexTesteEmail.test(email)&& ! existeEmail){
+var listaDeEmail = document.getElementById('listaDeEmail')
+listaDeEmail.innerHTML = listaDeEmail.innerHTML + '<li>${email}</li>'
+}else{
+    alert('email inválido')
+}
+}
+
+
