@@ -1,2 +1,2 @@
-# atividade-curriculo
-Currículo solicitado para atividade do onboarding do dia 05/09/2023
+# Repositório estágio desenvolvedor fullstack
+Repositório de guardar projetos, e coisas que irei aprender e acompanhar no estágio
