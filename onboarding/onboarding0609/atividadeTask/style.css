@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(97, 114, 129);
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px; /* Espaçamento interno*/
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #52b936; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Removendo a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    text-decoration: none; /* Removendo sublinhado padrão */
+}
+button:hover{
+    background-color: #657069;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 2px solid #3434;
+    background-color: rgb(37, 39, 38);
+    color: rgb(195, 211, 211);
+    border-radius: 4px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    width: 40%;
+}
+
+.form-button {
+    width: 100%;
+    margin-top: 25px;
+}
