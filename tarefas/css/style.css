@@ -1,0 +1,78 @@
+body{
+    background: #a2ad91;
+    color: #e8d9d9;
+    margin: 0;
+    font-family: arial,Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.conteudo{
+    margin: 0 auto; /*margem centralizada*/
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px; /*margem do topo*/
+    margin-bottom:50px ; /*margem de baixo*/
+    background: #cf8c95;
+    padding: 55px;
+    border-radius: 12px;
+    color: #f1e9e9;
+    border: 1px solid #504d4d;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;/*espaço entre os elementos que percentem ao topo, que é o input e o botão*/
+    margin-bottom: 35px;
+}
+.topo input/*editando o campo de preenchimento*/{
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #bfb0b0;
+    outline: none;
+    font-size: 1.2em;
+    background: #6b4950;
+    color: #ac9f9f;
+}
+.topo ::placeholder{
+    color: #bbb3b3;
+}
+.topo button{
+    width: 45px;
+    border-radius: 12px;
+    border: 1px solid #c6bfbf;
+    background: #d7d6d1;
+    color: #5b4b5f;
+    outline: none;
+}
+.topo button:hover{
+    background: #a89494;
+    cursor: pointer;
+}
+
+#listaTarefas{
+    list-style-type: none; /*elimina a bola do item*/
+    padding: 0;
+    margin: 0;
+}
+#listaTarefas li{
+    padding: 20px;
+    background: #6b4950;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.btnAcao /*estilizar os botoes*/{
+    border-radius: 20px;
+    border: 1px solid #191818;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #FFF;
+    outline: none;
+}
+.btnAcao:hover{
+    background-color: #3c3a3a;
+}
