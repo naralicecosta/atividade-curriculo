@@ -26,11 +26,9 @@ btnAddTarefa.addEventListener('click',(e) => {
     adicionarTarefa(tarefa)
 })
 
-
 function gerarId(){
     return Math.floor(Math.random() * 3000)//math..random vai retornar um numero entre 1 e 3000 e math.floor vai colocar o numero em inteiro
 }
-
 function adicionarTarefa(tarefa){
     let li = criarTagLI(tarefa);
     listaTarefas.appendChild(li)
@@ -47,26 +45,7 @@ function criarTagLI(tarefa){
 
     let div = document.createElement('div');
 
-    /*let btnEditar = document.createElement('button');
-    btnEditar.classList.add('btnAcao')
-    btnEditar.innerHTML = '<i class="fa fa-pencil"></li>'
-    btnEditar.setAttribute('onclick', 'editar('+tarefa.id+')')
-
-    let btnExcluir =document.createElement('button')
-    btnExcluir.classList.add('btnAcao')
-    btnExcluir.innerHTML = '<i class="fa fa-trash"></li>'
-    btnExcluir.setAttribute('onclick', 'excluir('+tarefa.id+')')
-
-    div.appendChild(btnEditar)
-    div.appendChild(btnExcluir)*/
-
     li.appendChild(span)
     li.appendChild(div)
     return li
 }
-/*function editar(idTarefa){
-    alert(idTarefa)
-}
-function excluir(idTarefa){
-    alert(idTarefa)
-}*/

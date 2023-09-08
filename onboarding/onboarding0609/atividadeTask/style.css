@@ -1,34 +1,40 @@
 body{
-    background-color: rgb(97, 114, 129);
-}
+        background: #a2ad91;
+        color: #e8d9d9;
+        margin: 0;
+        font-family: arial,Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }
 
 button{
     display: inline-block;
-    padding: 10px 20px; /* Espaçamento interno*/
-    font-size: 16px; /* Tamanho da fonte */
-    background-color: #52b936; /* Cor de fundo */
+    padding: 10px 30px; /* Espaçamento interno*/
+    font-size: 15px; /* Tamanho da fonte */
+    background-color: #498489; /* Cor de fundo */
     color: #fff; /* Cor do texto */
-    border: none; /* Removendo a borda padrão */
+    border: 1px solid #c6bfbf;
     border-radius: 5px; /* Borda arredondada */
     cursor: pointer; /* Cursor de mão ao passar o mouse */
     text-decoration: none; /* Removendo sublinhado padrão */
+    margin-bottom: 2px ; 
 }
 button:hover{
-    background-color: #657069;
+    background-color: #d2eedc;
+    transition-delay: 3s;
+    cursor: pointer;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    height: 100vh;
-    margin: 0 auto;
-    border: 2px solid #3434;
-    background-color: rgb(37, 39, 38);
-    color: rgb(195, 211, 211);
-    border-radius: 4px;
+    margin: 0 auto; /*margem centralizada*/
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px; /*margem do topo*/
+    margin-bottom:50px ; /*margem de baixo*/
+    background: #cf8c95;
+    padding: 10px;
+    border-radius: 12px;
+    color: #ffffff;
+    border: 3px solid #766f6f;
 }
 .form-group {
     display: flex;
@@ -36,10 +42,25 @@ button:hover{
 }
 
 .form-group input {
-    width: 40%;
-}
+    width:  170px;
+    border-radius: 5px;
+    border: 1px solid #c6bfbf;
+    outline: none;
+    padding: 10px 30px;
 
+}
 .form-button {
     width: 100%;
-    margin-top: 25px;
+    margin-top: 1px;
+
+}
+.form-button:hover{
+    background-color: #d2eedc;
+
+    transition-delay: 3s;
+    cursor: pointer;
+
+}
+.tarefas h1{
+    color: #282929;
 }
