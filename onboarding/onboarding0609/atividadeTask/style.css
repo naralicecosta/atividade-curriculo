@@ -6,30 +6,31 @@ body{
         font-size: 1rem;
     }
 
-button{
-    display: inline-block;
-    padding: 10px 30px; /* Espaçamento interno*/
-    font-size: 15px; /* Tamanho da fonte */
-    background-color: #498489; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
+.form-button button{
+    width: 50px;
+    padding: 5px 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 150px;
+    right: 45%;
+    border-radius: 10px;
     border: 1px solid #c6bfbf;
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    text-decoration: none; /* Removendo sublinhado padrão */
-    margin-bottom: 2px ; 
-}
-button:hover{
-    background-color: #d2eedc;
-    transition-delay: 3s;
+    background: #d7d6d1;
+    color: #5b4b5f;
     cursor: pointer;
+    outline: none;
 }
-
+.form-button button:hover{
+    background-color: #e5dbdb;
+    
+}
 .container {
     margin: 0 auto; /*margem centralizada*/
     width: 100%;
     max-width: 450px;
     margin-top: 50px; /*margem do topo*/
-    margin-bottom:50px ; /*margem de baixo*/
+    margin-bottom:100px ; /*margem de baixo*/
     background: #cf8c95;
     padding: 10px;
     border-radius: 12px;
@@ -43,24 +44,46 @@ button:hover{
 
 .form-group input {
     width:  170px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #c6bfbf;
     outline: none;
     padding: 10px 30px;
 
 }
-.form-button {
-    width: 100%;
-    margin-top: 1px;
-
-}
-.form-button:hover{
-    background-color: #d2eedc;
-
-    transition-delay: 3s;
-    cursor: pointer;
-
-}
 .tarefas h1{
     color: #282929;
+}
+
+.btnAcao{
+    width: 50px;
+    padding: 2px;
+    font-size: 15px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #c6bfbf;
+    background: #d7d6d1;
+    color: #638281;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    top: 0;
+    right: 10%;
+    border-top: 30px;
+
+/*width: 35px;
+    padding: 4px;
+    font-size: 15px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #c6bfbf;
+    background: #d7d6d1;
+    color: #5b4b5f;
+    cursor: pointer;
+    outline: none;
+    justify-content: flex-end;*/
+}
+
+.btnAcao:hover{
+    background-color: #a9a6a6;
+
 }

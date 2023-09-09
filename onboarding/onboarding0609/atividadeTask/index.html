@@ -3,6 +3,7 @@
     <head>
         <title>Gerenciador de atividades</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -15,20 +16,18 @@
             </div>
     
             <div class="form-button">
-                <button onclick=adiciona()>
-                    Adicionar
+                </p><button onclick=adiciona()>
+                  <strong>+</strong>
                 </button>
             </div>
         </div>
 
         <div class="tarefas">
             <h1>Suas tarefas são:</h1>
-            <div>
                 <ul id="listaDeTarefas">
-                </ul>
-            </div>
+                    <input type="hidden" id="editIndex" value="">
+                        
         </div>
-
         <script src="./adiciona.js"></script>
     </body>
 </html>
