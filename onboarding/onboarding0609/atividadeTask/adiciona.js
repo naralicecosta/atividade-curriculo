@@ -79,8 +79,8 @@ function adiciona() {
   const novaTarefa = document.createElement('li');
   novaTarefa.innerHTML = `
     ${tarefa}
-    <button class="btnAcao" onclick="editarTarefa(this)">Editar</button>
-    <button class="btnAcao" onclick="excluirTarefa(this)">Excluir</button>
+    <div><button class="btnAcao" onclick="editarTarefa(this)" ><i class="fa-regular fa-pen-to-square"></i></button>
+    <button class="btnAcao" onclick="excluirTarefa(this)"><i class="fa-solid fa-trash"></i></button></div>
   `;
 
   // Adicionar o novo elemento à lista de tarefas
@@ -92,8 +92,8 @@ function adiciona() {
 
 // Função para editar uma tarefa
 function editarTarefa(button) {
-  const tarefaParaEditar = button.parentNode;
-  const tarefaTexto = tarefaParaEditar.firstChild.textContent;
+  const tarefaParaEditar = button.parentNode.parentNode; 
+  const tarefaTexto = tarefaParaEditar.firstChild.textContent.trim();
   const editIndexInput = document.getElementById('editIndex');
   editIndexInput.value = tarefaTexto; // Armazene o texto da tarefa no campo oculto
   tarefaParaEditar.remove(); // Remova a tarefa da lista
@@ -102,6 +102,6 @@ function editarTarefa(button) {
 
 // Função para excluir uma tarefa
 function excluirTarefa(button) {
-  const tarefaParaExcluir = button.parentNode;
+  const tarefaParaExcluir = button.parentNode.parentNode;//ajuda com Matheus
   tarefaParaExcluir.remove();
 }

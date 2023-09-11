@@ -53,7 +53,10 @@ body{
 .tarefas h1{
     color: #282929;
 }
-
+#listaDeTarefas li{
+    display: flex;
+    justify-content: space-between;
+}
 .btnAcao{
     width: 50px;
     padding: 2px;
