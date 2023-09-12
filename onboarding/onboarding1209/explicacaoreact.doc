@@ -1,0 +1,15 @@
+Explicando react
+
+front-end é react
+inicialmente foi feito com html, javascript, css
+ate que foi necessário evoluir
+
+o react vem com a proposta de deixar mais simples o acesso a elementos do html e ter uma visao mais funcional do que esta na tela
+
+quando instalamos o node, ele vem com o gerenciador de pacotes que é o npm e com isso temos acesso a várias coisas e bibliotecas e o react é uma delas
+
+criando um arquivo react pelo cmd
+- caminhe ate a pasta que  voce quer o arquivo
+COLE ISTO (tem na documentação do react )npx create-react-app onboarding-2 --template typescript
+
+o que é uma propriedade?
