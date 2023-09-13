@@ -2,7 +2,7 @@ import { ReactElement } from "react"
 import { IEpisodio } from "./IEpisodiosInterface";
 
 //diz o que voce quer
-interface ICardUserProps{
+interface ICardUserProps {
     episodio: IEpisodio
 }
 

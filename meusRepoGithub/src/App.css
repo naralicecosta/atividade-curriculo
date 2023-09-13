@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(197, 144, 144);
+}
+.cards{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.cardRepo{
+    background-color: rgb(48, 40, 40);
+  color: rgb(187, 182, 182);
+  width: 30%;
+  border: 1px solid #696767;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+
+  margin: 16px 8px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s;
+}
