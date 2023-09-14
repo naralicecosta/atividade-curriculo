@@ -1,9 +1,5 @@
 import{CardRepo} from './CardRepo'
-import { IProfile } from './IProfile'
-import {IRepositorio} from './IRepoInterface'
-import  CardProfile  from './CardProfile'
+import { IRepositorio } from './IRepoInterface'
 
 export{ CardRepo }
-export type{ IProfile }
-export type {IRepositorio}
-export default CardProfile
+export type { IRepositorio }
