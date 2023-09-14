@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { isMapIterator } from "util/types";
 import "./App.css";
 import { CardRepo, IRepositorio } from "./components/card_repo";
 

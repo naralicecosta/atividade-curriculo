@@ -13,6 +13,6 @@ const CardUser = (props:ICardUserProps): ReactElement => {
           <span>Nome do episodio: {props.episodio.name}</span>
           <span>Data de lançamento: {props.episodio.air_date}</span>
         </div>
-        )
+    )
 }
 export { CardUser } //recomendado assim
