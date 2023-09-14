@@ -8,11 +8,11 @@ interface ICardRepoProps{
 const CardRepo = (props:ICardRepoProps):ReactElement =>{
     return(/*melhorar o css, adicionar uma div em volta */
         <div className="cardRepo"> 
-          <span>Nome do repositório: {props.repositorios.name}</span>
-          <span>Descrição: {props.repositorios.description}</span>
-          <span>Linguagem utilizada: {props.repositorios.language}</span>
-          <span>Link perfil: {props.repositorios.html_url}</span>
+          <span><h1>Nome do repositório:</h1><p>{props.repositorios.name}</p></span>
+          <span><h1>Tecnologia utilizada:</h1><p>{props.repositorios.language}</p></span>
+          <span><h1>Link perfil:</h1><p>{props.repositorios.html_url}</p></span>
         </div>
         )
+
 }
 export { CardRepo }

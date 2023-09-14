@@ -15,7 +15,6 @@ body{
   margin: 15px;
   overflow: hidden;
   transition: all .5s;
-
 }
 .cards{
   display: flex;
@@ -29,13 +28,16 @@ body{
   margin-bottom: 20px;
   padding: 10px;
   overflow: hidden;
+   padding: 20px 30px;
+   padding-top: 0;
+
 }
 .cards span{
   font-family: sans-serif;
   padding: 5px;
   color: rgb(253, 254, 255);
   font-size: 15px;
-
+  
 }
 .cardRepo:hover{
   background-color: rgba(232, 224, 214, 0.724);
