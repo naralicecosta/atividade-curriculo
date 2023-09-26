@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #708090 url("./components/imgkenye.jpg");
+}
+.cardQuote{
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+}
